@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: static-site-container
-        image: my-static-site:latest 
+        image: manikandaprabu001/app-image:b9e0b17
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
